@@ -1,0 +1,23 @@
+{
+  "kind": "singleType",
+  "collectionName": "mechanicheskayas",
+  "info": {
+    "name": "Mechanicheskaya"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "attributes": {
+    "Mechanicheskaya": {
+      "collection": "file",
+      "via": "related",
+      "allowedTypes": [
+        "images"
+      ],
+      "plugin": "upload",
+      "required": false
+    }
+  }
+}

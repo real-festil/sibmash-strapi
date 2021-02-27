@@ -1,0 +1,28 @@
+{
+  "routes": [
+    {
+      "method": "GET",
+      "path": "/zaglushki",
+      "handler": "zaglushki.find",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "PUT",
+      "path": "/zaglushki",
+      "handler": "zaglushki.update",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "DELETE",
+      "path": "/zaglushki",
+      "handler": "zaglushki.delete",
+      "config": {
+        "policies": []
+      }
+    }
+  ]
+}

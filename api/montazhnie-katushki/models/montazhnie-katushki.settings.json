@@ -1,0 +1,23 @@
+{
+  "kind": "singleType",
+  "collectionName": "montazhnie_katushkis",
+  "info": {
+    "name": "MontazhnieKatushki"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "attributes": {
+    "MontazhnieKatushki": {
+      "collection": "file",
+      "via": "related",
+      "allowedTypes": [
+        "images"
+      ],
+      "plugin": "upload",
+      "required": false
+    }
+  }
+}

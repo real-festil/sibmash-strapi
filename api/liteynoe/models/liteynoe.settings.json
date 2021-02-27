@@ -1,0 +1,23 @@
+{
+  "kind": "singleType",
+  "collectionName": "liteynoes",
+  "info": {
+    "name": "Liteynoe"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "attributes": {
+    "Liteynoe": {
+      "collection": "file",
+      "via": "related",
+      "allowedTypes": [
+        "images"
+      ],
+      "plugin": "upload",
+      "required": false
+    }
+  }
+}

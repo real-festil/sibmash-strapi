@@ -1,0 +1,28 @@
+{
+  "routes": [
+    {
+      "method": "GET",
+      "path": "/neftepromyslovoe-oborudovanie",
+      "handler": "neftepromyslovoe-oborudovanie.find",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "PUT",
+      "path": "/neftepromyslovoe-oborudovanie",
+      "handler": "neftepromyslovoe-oborudovanie.update",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "DELETE",
+      "path": "/neftepromyslovoe-oborudovanie",
+      "handler": "neftepromyslovoe-oborudovanie.delete",
+      "config": {
+        "policies": []
+      }
+    }
+  ]
+}

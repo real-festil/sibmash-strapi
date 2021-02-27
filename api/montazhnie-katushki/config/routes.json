@@ -1,0 +1,28 @@
+{
+  "routes": [
+    {
+      "method": "GET",
+      "path": "/montazhnie-katushki",
+      "handler": "montazhnie-katushki.find",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "PUT",
+      "path": "/montazhnie-katushki",
+      "handler": "montazhnie-katushki.update",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "DELETE",
+      "path": "/montazhnie-katushki",
+      "handler": "montazhnie-katushki.delete",
+      "config": {
+        "policies": []
+      }
+    }
+  ]
+}

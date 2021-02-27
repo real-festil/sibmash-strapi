@@ -1,0 +1,28 @@
+{
+  "routes": [
+    {
+      "method": "GET",
+      "path": "/opory",
+      "handler": "opory.find",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "PUT",
+      "path": "/opory",
+      "handler": "opory.update",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "DELETE",
+      "path": "/opory",
+      "handler": "opory.delete",
+      "config": {
+        "policies": []
+      }
+    }
+  ]
+}

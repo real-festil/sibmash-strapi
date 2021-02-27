@@ -1,0 +1,28 @@
+{
+  "routes": [
+    {
+      "method": "GET",
+      "path": "/otvody",
+      "handler": "otvody.find",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "PUT",
+      "path": "/otvody",
+      "handler": "otvody.update",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "DELETE",
+      "path": "/otvody",
+      "handler": "otvody.delete",
+      "config": {
+        "policies": []
+      }
+    }
+  ]
+}

@@ -1,0 +1,23 @@
+{
+  "kind": "singleType",
+  "collectionName": "glavniy_sliders",
+  "info": {
+    "name": "Glavniy-Slider"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "attributes": {
+    "MainSlider": {
+      "collection": "file",
+      "via": "related",
+      "allowedTypes": [
+        "images"
+      ],
+      "plugin": "upload",
+      "required": false
+    }
+  }
+}

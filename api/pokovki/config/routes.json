@@ -1,0 +1,28 @@
+{
+  "routes": [
+    {
+      "method": "GET",
+      "path": "/pokovki",
+      "handler": "pokovki.find",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "PUT",
+      "path": "/pokovki",
+      "handler": "pokovki.update",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "DELETE",
+      "path": "/pokovki",
+      "handler": "pokovki.delete",
+      "config": {
+        "policies": []
+      }
+    }
+  ]
+}

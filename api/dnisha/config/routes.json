@@ -1,0 +1,28 @@
+{
+  "routes": [
+    {
+      "method": "GET",
+      "path": "/dnisha",
+      "handler": "dnisha.find",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "PUT",
+      "path": "/dnisha",
+      "handler": "dnisha.update",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "DELETE",
+      "path": "/dnisha",
+      "handler": "dnisha.delete",
+      "config": {
+        "policies": []
+      }
+    }
+  ]
+}

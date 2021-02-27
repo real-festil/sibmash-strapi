@@ -1,0 +1,23 @@
+{
+  "kind": "singleType",
+  "collectionName": "opories",
+  "info": {
+    "name": "Opory"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "attributes": {
+    "Opory": {
+      "collection": "file",
+      "via": "related",
+      "allowedTypes": [
+        "images"
+      ],
+      "plugin": "upload",
+      "required": false
+    }
+  }
+}

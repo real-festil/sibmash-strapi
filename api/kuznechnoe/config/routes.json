@@ -1,0 +1,28 @@
+{
+  "routes": [
+    {
+      "method": "GET",
+      "path": "/kuznechnoe",
+      "handler": "kuznechnoe.find",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "PUT",
+      "path": "/kuznechnoe",
+      "handler": "kuznechnoe.update",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "DELETE",
+      "path": "/kuznechnoe",
+      "handler": "kuznechnoe.delete",
+      "config": {
+        "policies": []
+      }
+    }
+  ]
+}

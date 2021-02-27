@@ -1,0 +1,25 @@
+{
+  "kind": "singleType",
+  "collectionName": "pokovkis",
+  "info": {
+    "name": "Pokovki"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "attributes": {
+    "Pokovki": {
+      "collection": "file",
+      "via": "related",
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos"
+      ],
+      "plugin": "upload",
+      "required": false
+    }
+  }
+}

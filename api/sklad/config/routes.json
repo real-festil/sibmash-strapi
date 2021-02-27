@@ -1,0 +1,28 @@
+{
+  "routes": [
+    {
+      "method": "GET",
+      "path": "/sklad",
+      "handler": "sklad.find",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "PUT",
+      "path": "/sklad",
+      "handler": "sklad.update",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "DELETE",
+      "path": "/sklad",
+      "handler": "sklad.delete",
+      "config": {
+        "policies": []
+      }
+    }
+  ]
+}

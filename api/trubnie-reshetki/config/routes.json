@@ -1,0 +1,28 @@
+{
+  "routes": [
+    {
+      "method": "GET",
+      "path": "/trubnie-reshetki",
+      "handler": "trubnie-reshetki.find",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "PUT",
+      "path": "/trubnie-reshetki",
+      "handler": "trubnie-reshetki.update",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "DELETE",
+      "path": "/trubnie-reshetki",
+      "handler": "trubnie-reshetki.delete",
+      "config": {
+        "policies": []
+      }
+    }
+  ]
+}

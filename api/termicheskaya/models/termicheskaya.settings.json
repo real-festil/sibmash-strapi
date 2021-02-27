@@ -1,0 +1,25 @@
+{
+  "kind": "singleType",
+  "collectionName": "termicheskayas",
+  "info": {
+    "name": "Termicheskaya"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "attributes": {
+    "Termicheskaya": {
+      "collection": "file",
+      "via": "related",
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos"
+      ],
+      "plugin": "upload",
+      "required": false
+    }
+  }
+}

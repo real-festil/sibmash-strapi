@@ -1,0 +1,25 @@
+{
+  "kind": "singleType",
+  "collectionName": "prokladkis",
+  "info": {
+    "name": "Prokladki"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "attributes": {
+    "Prokladki": {
+      "collection": "file",
+      "via": "related",
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos"
+      ],
+      "plugin": "upload",
+      "required": false
+    }
+  }
+}

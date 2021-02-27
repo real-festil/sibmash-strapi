@@ -1,0 +1,28 @@
+{
+  "routes": [
+    {
+      "method": "GET",
+      "path": "/troyniki",
+      "handler": "troyniki.find",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "PUT",
+      "path": "/troyniki",
+      "handler": "troyniki.update",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "DELETE",
+      "path": "/troyniki",
+      "handler": "troyniki.delete",
+      "config": {
+        "policies": []
+      }
+    }
+  ]
+}

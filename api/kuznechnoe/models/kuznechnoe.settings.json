@@ -1,0 +1,23 @@
+{
+  "kind": "singleType",
+  "collectionName": "kuznechnoes",
+  "info": {
+    "name": "Kuznechnoe"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "attributes": {
+    "Kuznechnoe": {
+      "collection": "file",
+      "via": "related",
+      "allowedTypes": [
+        "images"
+      ],
+      "plugin": "upload",
+      "required": false
+    }
+  }
+}

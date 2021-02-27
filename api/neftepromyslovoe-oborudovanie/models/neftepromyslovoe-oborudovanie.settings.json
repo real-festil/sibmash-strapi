@@ -1,0 +1,23 @@
+{
+  "kind": "singleType",
+  "collectionName": "neftepromyslovoe_oborudovanies",
+  "info": {
+    "name": "NeftepromyslovoeOborudovanie"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "attributes": {
+    "NeftepromyslovoeOborudovanie": {
+      "collection": "file",
+      "via": "related",
+      "allowedTypes": [
+        "images"
+      ],
+      "plugin": "upload",
+      "required": false
+    }
+  }
+}

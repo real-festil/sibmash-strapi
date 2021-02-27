@@ -1,0 +1,23 @@
+{
+  "kind": "singleType",
+  "collectionName": "dnishas",
+  "info": {
+    "name": "Dnisha"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "attributes": {
+    "Dnisha": {
+      "collection": "file",
+      "via": "related",
+      "allowedTypes": [
+        "images"
+      ],
+      "plugin": "upload",
+      "required": false
+    }
+  }
+}

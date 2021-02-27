@@ -1,0 +1,23 @@
+{
+  "kind": "singleType",
+  "collectionName": "otvodies",
+  "info": {
+    "name": "Otvody"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "attributes": {
+    "otvody": {
+      "collection": "file",
+      "via": "related",
+      "allowedTypes": [
+        "images"
+      ],
+      "plugin": "upload",
+      "required": false
+    }
+  }
+}

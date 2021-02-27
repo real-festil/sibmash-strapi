@@ -1,0 +1,28 @@
+{
+  "routes": [
+    {
+      "method": "GET",
+      "path": "/flancy",
+      "handler": "flancy.find",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "PUT",
+      "path": "/flancy",
+      "handler": "flancy.update",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "DELETE",
+      "path": "/flancy",
+      "handler": "flancy.delete",
+      "config": {
+        "policies": []
+      }
+    }
+  ]
+}

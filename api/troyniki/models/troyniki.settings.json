@@ -1,0 +1,25 @@
+{
+  "kind": "singleType",
+  "collectionName": "troynikis",
+  "info": {
+    "name": "Troyniki"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "attributes": {
+    "troyniki": {
+      "collection": "file",
+      "via": "related",
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos"
+      ],
+      "plugin": "upload",
+      "required": false
+    }
+  }
+}

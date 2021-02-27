@@ -1,0 +1,28 @@
+{
+  "routes": [
+    {
+      "method": "GET",
+      "path": "/termicheskaya",
+      "handler": "termicheskaya.find",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "PUT",
+      "path": "/termicheskaya",
+      "handler": "termicheskaya.update",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "DELETE",
+      "path": "/termicheskaya",
+      "handler": "termicheskaya.delete",
+      "config": {
+        "policies": []
+      }
+    }
+  ]
+}

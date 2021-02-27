@@ -1,0 +1,23 @@
+{
+  "kind": "singleType",
+  "collectionName": "flancies",
+  "info": {
+    "name": "flancy"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "attributes": {
+    "flancy": {
+      "collection": "file",
+      "via": "related",
+      "allowedTypes": [
+        "images"
+      ],
+      "plugin": "upload",
+      "required": false
+    }
+  }
+}

@@ -1,0 +1,25 @@
+{
+  "kind": "singleType",
+  "collectionName": "sklads",
+  "info": {
+    "name": "Sklad"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "attributes": {
+    "Sklad": {
+      "collection": "file",
+      "via": "related",
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos"
+      ],
+      "plugin": "upload",
+      "required": false
+    }
+  }
+}

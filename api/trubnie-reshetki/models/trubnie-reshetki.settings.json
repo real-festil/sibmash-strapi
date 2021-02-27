@@ -1,0 +1,23 @@
+{
+  "kind": "singleType",
+  "collectionName": "trubnie_reshetkis",
+  "info": {
+    "name": "TrubnieReshetki"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "attributes": {
+    "trubnieReshetki": {
+      "collection": "file",
+      "via": "related",
+      "allowedTypes": [
+        "images"
+      ],
+      "plugin": "upload",
+      "required": false
+    }
+  }
+}

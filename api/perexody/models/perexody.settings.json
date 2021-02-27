@@ -1,0 +1,25 @@
+{
+  "kind": "singleType",
+  "collectionName": "perexodies",
+  "info": {
+    "name": "Perexody"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "attributes": {
+    "perexody": {
+      "collection": "file",
+      "via": "related",
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos"
+      ],
+      "plugin": "upload",
+      "required": false
+    }
+  }
+}

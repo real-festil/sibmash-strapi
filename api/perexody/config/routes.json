@@ -1,0 +1,28 @@
+{
+  "routes": [
+    {
+      "method": "GET",
+      "path": "/perexody",
+      "handler": "perexody.find",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "PUT",
+      "path": "/perexody",
+      "handler": "perexody.update",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "DELETE",
+      "path": "/perexody",
+      "handler": "perexody.delete",
+      "config": {
+        "policies": []
+      }
+    }
+  ]
+}

@@ -1,0 +1,23 @@
+{
+  "kind": "singleType",
+  "collectionName": "otks",
+  "info": {
+    "name": "OTK"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "attributes": {
+    "otk": {
+      "collection": "file",
+      "via": "related",
+      "allowedTypes": [
+        "images"
+      ],
+      "plugin": "upload",
+      "required": false
+    }
+  }
+}

@@ -1,0 +1,28 @@
+{
+  "routes": [
+    {
+      "method": "GET",
+      "path": "/liteynoe",
+      "handler": "liteynoe.find",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "PUT",
+      "path": "/liteynoe",
+      "handler": "liteynoe.update",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "DELETE",
+      "path": "/liteynoe",
+      "handler": "liteynoe.delete",
+      "config": {
+        "policies": []
+      }
+    }
+  ]
+}

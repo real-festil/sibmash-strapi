@@ -1,0 +1,23 @@
+{
+  "kind": "singleType",
+  "collectionName": "zaglushkis",
+  "info": {
+    "name": "Zaglushki"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "attributes": {
+    "zaglushki": {
+      "collection": "file",
+      "via": "related",
+      "allowedTypes": [
+        "images"
+      ],
+      "plugin": "upload",
+      "required": false
+    }
+  }
+}

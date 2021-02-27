@@ -1,0 +1,28 @@
+{
+  "routes": [
+    {
+      "method": "GET",
+      "path": "/otk",
+      "handler": "otk.find",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "PUT",
+      "path": "/otk",
+      "handler": "otk.update",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "DELETE",
+      "path": "/otk",
+      "handler": "otk.delete",
+      "config": {
+        "policies": []
+      }
+    }
+  ]
+}
